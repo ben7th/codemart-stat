@@ -1,0 +1,6 @@
+@import "./vars";
+
+.BasicLayout {
+  @include fillBox;
+  background-color: #f1f1f1;
+}
