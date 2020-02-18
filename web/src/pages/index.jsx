@@ -4,10 +4,16 @@ import React from 'react'
 import css from './index.scss'
 
 import _inputData from '../../../scripts-2020-02-17/result.json'
-import { splitByValues } from '../lib/utils'
+import { splitByValues, splitByMultiValues } from '../lib/utils'
 import moment from 'moment'
+import commentData from '../../../scripts-2020-02-17/resultComment.json'
 
-const resultData = _inputData //.filter(x => x.statusText === '招募中')
+const resultData = _inputData 
+  // .filter(x => x.statusText === '招募中')
+
+resultData.forEach(d => {
+  d.tags = d.cutTags.map(x => x.word)
+})
 
 export default class index extends React.Component {
   render () {
@@ -33,10 +39,10 @@ export default class index extends React.Component {
           <PubTimeStat />
         </div>
         <div className={ css.block }>
-          <h3>分词分析</h3>
+          <CutTagStat />
         </div>
         <div className={ css.block }>
-          <h3>人工分析</h3>
+          <ManualStat />
         </div>
       </div>
     </div>
@@ -118,7 +124,7 @@ class PriceStat extends React.Component {
     }
 
     let _parts = Object.values(stat.parts).map((p, idx) => {
-      return <div className={ css.data }>
+      return <div className={ css.data } key={ idx }>
         <span>{ p.min } ~ { p.max < Infinity ? p.max : '' }</span>
         <span>{ p.projects.length }</span>
       </div>
@@ -184,12 +190,6 @@ class PriceStat extends React.Component {
   }
 }
 
-class CMLink extends React.Component {
-  render () {
-    return <a href={ `https://codemart.com/project/${this.props.id}` } target='_blank' rel='noopener noreferrer'>#{ this.props.id }</a>
-  }
-}
-
 class TypeStat extends React.Component {
   render () {
     let { stat } = this.state
@@ -199,7 +199,7 @@ class TypeStat extends React.Component {
     }
 
     let _parts = Object.values(stat.parts).map((p, idx) => {
-      return <div className={ css.data }>
+      return <div className={ css.data } key={ idx }>
         <span>{ p.value }</span>
         <span>{ p.subarr.length }</span>
       </div>
@@ -240,7 +240,7 @@ class RoleStat extends React.Component {
     }
 
     let _parts = Object.values(stat.parts).map((p, idx) => {
-      return <div className={ css.data }>
+      return <div className={ css.data } key={ idx }>
         <span>{ p.value }</span>
         <span>{ p.subarr.length }</span>
       </div>
@@ -281,7 +281,7 @@ class DurationStat extends React.Component {
     }
 
     let _parts = Object.values(stat.parts).map((p, idx) => {
-      return <div className={ css.data }>
+      return <div className={ css.data } key={ idx }>
         <span>{ p.min } ~ { p.max < Infinity ? p.max : '' }</span>
         <span>{ p.projects.length }</span>
       </div>
@@ -356,7 +356,7 @@ class PubTimeStat extends React.Component {
     }
 
     let _parts = Object.values(stat.parts).map((p, idx) => {
-      return <div className={ css.data }>
+      return <div className={ css.data } key={ idx }>
         <span>{ moment(p.min).format('YYYY-MM') } ~ { moment(p.max).subtract(1, 'day').format('YYYY-MM') }</span>
         <span>{ p.projects.length }</span>
       </div>
@@ -433,5 +433,112 @@ class PubTimeStat extends React.Component {
         max, min, parts
       }
     })
+  }
+}
+
+class ManualStat extends React.Component {
+  render () {
+    let { stat } = this.state
+
+    if (!stat) {
+      return null
+    }
+
+    return <div className={ css.Stat }>
+      <h3>人工分析</h3>
+      <div className={ css.header }>
+        <span>指标</span><span>数值</span>
+      </div>
+
+      <div className={ css.data }>
+        <span>招募职责</span><span>{ stat.s3.values.join(' | ') }</span>
+      </div> 
+      <Parts parts={ stat.s3.parts } />
+
+      <br/>
+      <div className={ css.data }>
+        <span>需求明确度</span><span>{ stat.s1.values.join(' | ') }</span>
+      </div> 
+      <Parts parts={ stat.s1.parts } />
+
+      <br/>
+      <div className={ css.data }>
+        <span>项目领域</span><span>{ stat.s2.values.join(' | ') }</span>
+      </div> 
+      <Parts parts={ stat.s2.parts } />
+
+      <br/>
+      <div className={ css.data }>
+        <span>所需技能</span><span>{ stat.s4.values.join(' | ') }</span>
+      </div> 
+      <Parts parts={ stat.s4.parts } />
+    </div>
+  }
+
+  state = {
+    stat: null
+  }
+
+  componentDidMount () {
+    let s1 = splitByMultiValues({ arr: commentData, field: 'demand' })
+    let s2 = splitByMultiValues({ arr: commentData, field: 'domain' })
+    let s3 = splitByValues({ arr: commentData, field: 'duty' })
+    let s4 = splitByMultiValues({ arr: commentData, field: 'skill' })
+
+    this.setState({
+      stat: { s1, s2, s3, s4 }
+    })
+  }
+}
+
+class CutTagStat extends React.Component {
+  render () {
+    let { stat } = this.state
+
+    if (!stat) {
+      return null
+    }
+
+    return <div className={ css.Stat }>
+      <h3>关键词自动提取统计</h3>
+      <div className={ css.header }>
+        <span>指标</span><span>数值</span>
+      </div>
+
+      <Parts parts={ stat.parts } />
+    </div>
+  }
+
+  state = {
+    stat: null
+  }
+
+  componentDidMount () {
+    console.log(resultData)
+    let { values, parts } = splitByMultiValues({ arr: resultData, field: 'tags' })
+    this.setState({
+      stat: { values, parts }
+    })
+  }
+}
+
+class CMLink extends React.Component {
+  render () {
+    return <a href={ `https://codemart.com/project/${this.props.id}` } target='_blank' rel='noopener noreferrer'>#{ this.props.id }</a>
+  }
+}
+
+class Parts extends React.Component {
+  render () {
+    let lines = Object.values(this.props.parts).sort((a, b) => b.subarr.length - a.subarr.length).map((p, idx) => {
+      return <div className={ css.data } key={ idx }>
+        <span>{ p.value }</span>
+        <span>{ p.subarr.length }</span>
+      </div>
+    })
+
+    return <>
+      { lines }
+    </>
   }
 }

@@ -1,0 +1,1644 @@
+[
+  {
+    "id": 21190,
+    "domain": [
+      "电商"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "liquid",
+      "ruby",
+      "web",
+      "shopify"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "area": [
+      "长三角"
+    ]
+  },
+  {
+    "id": 21188,
+    "domain": [
+      "拍卖"
+    ],
+    "skill": [
+      "web"
+    ],
+    "duty": "全栈",
+    "area": [
+      "北京",
+      "济南"
+    ],
+    "demand": [
+      "不明确"
+    ]
+  },
+  {
+    "id": 21187,
+    "domain": [
+      "设计"
+    ],
+    "duty": "设计",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "logo"
+    ],
+    "area": []
+  },
+  {
+    "id": 21186,
+    "domain": [
+      "医药",
+      "零售",
+      "电商"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "小程序"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "area": []
+  },
+  {
+    "id": 21143,
+    "domain": [
+      "电商"
+    ],
+    "duty": "前端",
+    "skill": [
+      "web",
+      "shopify"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "area": [
+      "长三角"
+    ]
+  },
+  {
+    "id": 21185,
+    "domain": [
+      "工具",
+      "健康"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "android",
+      "ios",
+      "蓝牙"
+    ],
+    "demand": [
+      "明确"
+    ],
+    "area": []
+  },
+  {
+    "id": 21184,
+    "domain": [
+      "机顶盒"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "linux",
+      "嵌入式",
+      "多媒体"
+    ],
+    "demand": [
+      "明确"
+    ],
+    "area": [
+      "珠三角"
+    ]
+  },
+  {
+    "id": 21183,
+    "domain": [
+      "插件"
+    ],
+    "duty": "前端",
+    "skill": [
+      "flutter",
+      "ios",
+      "android"
+    ],
+    "demand": [
+      "明确"
+    ],
+    "area": []
+  },
+  {
+    "id": 21180,
+    "domain": [
+      "企业网站"
+    ],
+    "duty": "前端",
+    "skill": [
+      "web"
+    ],
+    "demand": [
+      "明确"
+    ],
+    "area": []
+  },
+  {
+    "id": 21179,
+    "domain": [
+      "电商",
+      "团购"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "web"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "area": []
+  },
+  {
+    "id": 21051,
+    "domain": [
+      "数据"
+    ],
+    "duty": "后端",
+    "skill": [
+      "重构"
+    ],
+    "demand": [
+      "明确"
+    ],
+    "area": []
+  },
+  {
+    "id": 21177,
+    "domain": [
+      "硬件驱动"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "条码",
+      "驱动开发"
+    ],
+    "demand": [
+      "明确"
+    ],
+    "area": [
+      "深圳"
+    ]
+  },
+  {
+    "id": 21176,
+    "domain": [
+      "电商",
+      "音乐"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "二次开发",
+      "支付宝",
+      "微信支付"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "area": []
+  },
+  {
+    "id": 21175,
+    "domain": [
+      "教育",
+      "图像识别"
+    ],
+    "duty": "后端",
+    "skill": [
+      "图像识别",
+      "算法"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "area": []
+  },
+  {
+    "id": 21174,
+    "domain": [
+      "论坛"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "java",
+      "python",
+      "mysql",
+      "php",
+      "discuz"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "area": []
+  },
+  {
+    "id": 21157,
+    "domain": [
+      "微信",
+      "工具",
+      "BOT"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "微信",
+      "QQ",
+      "BOT"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "area": []
+  },
+  {
+    "id": 21155,
+    "domain": [
+      "电商",
+      "刷单"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "模仿"
+    ],
+    "skill": [
+      "淘宝",
+      "京东",
+      "拼多多"
+    ],
+    "area": []
+  },
+  {
+    "id": 21164,
+    "domain": [
+      "插件"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "C",
+      "插件",
+      "客户端"
+    ],
+    "area": []
+  },
+  {
+    "id": 21171,
+    "domain": [
+      "支付",
+      "财务"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "模仿"
+    ],
+    "skill": [
+      "支付",
+      "web",
+      "app"
+    ],
+    "area": []
+  },
+  {
+    "id": 21170,
+    "domain": [
+      "web"
+    ],
+    "duty": "前端",
+    "demand": [
+      "明确"
+    ],
+    "skill": [
+      "html",
+      "css"
+    ],
+    "area": []
+  },
+  {
+    "id": 21169,
+    "domain": [
+      "web",
+      "erp"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "明确",
+      "过大"
+    ],
+    "skill": [
+      "php"
+    ],
+    "area": []
+  },
+  {
+    "id": 21167,
+    "domain": [
+      "外挂"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "外挂"
+    ],
+    "area": []
+  },
+  {
+    "id": 21166,
+    "domain": [
+      "反外挂"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "web",
+      "易语言",
+      "wpe"
+    ],
+    "area": []
+  },
+  {
+    "id": 21162,
+    "domain": [
+      "微信小程序"
+    ],
+    "skill": [
+      "小程序",
+      "taro",
+      "react",
+      "dva",
+      "ts"
+    ],
+    "demand": [
+      "明确"
+    ],
+    "duty": "前端",
+    "area": []
+  },
+  {
+    "id": 21048,
+    "domain": [
+      "嵌入式",
+      "灯光控制"
+    ],
+    "skill": [
+      "android",
+      "ios",
+      "windows"
+    ],
+    "demand": [
+      "明确"
+    ],
+    "duty": "全栈",
+    "area": []
+  },
+  {
+    "id": 21159,
+    "domain": [
+      "健康",
+      "BOT"
+    ],
+    "skill": [
+      "架构",
+      "BOT",
+      "健康管理"
+    ],
+    "duty": "顾问",
+    "demand": [
+      "不明确"
+    ],
+    "area": []
+  },
+  {
+    "id": 21160,
+    "domain": [
+      "商务"
+    ],
+    "duty": "顾问",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [],
+    "area": []
+  },
+  {
+    "id": 21156,
+    "domain": [
+      "票务"
+    ],
+    "duty": "项目管理",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "项目管理"
+    ],
+    "area": []
+  },
+  {
+    "id": 21153,
+    "domain": [
+      "OA"
+    ],
+    "duty": "前端",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "web"
+    ],
+    "area": [
+      "上海",
+      "南京"
+    ]
+  },
+  {
+    "id": 21093,
+    "domain": [
+      "VR"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "vr",
+      "python",
+      "web"
+    ],
+    "area": []
+  },
+  {
+    "id": 21148,
+    "domain": [
+      "地理信息"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "gis",
+      "android",
+      "英语"
+    ],
+    "area": []
+  },
+  {
+    "id": 21049,
+    "domain": [
+      "电商"
+    ],
+    "duty": "前端",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "react",
+      "react-native",
+      "小程序",
+      "taro"
+    ],
+    "area": []
+  },
+  {
+    "id": 21149,
+    "domain": [
+      "活体检测",
+      "影像识别"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "活体检测"
+    ],
+    "area": [
+      "杭州"
+    ]
+  },
+  {
+    "id": 21147,
+    "domain": [
+      "论坛"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "skill": [],
+    "area": []
+  },
+  {
+    "id": 21144,
+    "domain": [
+      "手游"
+    ],
+    "duty": "UI",
+    "demand": [
+      "模仿"
+    ],
+    "skill": [
+      "美术",
+      "UI"
+    ],
+    "area": []
+  },
+  {
+    "id": 21142,
+    "domain": [
+      "流媒体"
+    ],
+    "duty": "后端",
+    "demand": [
+      "明确"
+    ],
+    "skill": [
+      "rtsp",
+      "rtmp"
+    ],
+    "area": []
+  },
+  {
+    "id": 21063,
+    "domain": [
+      "IM",
+      "BOT"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "bot"
+    ],
+    "area": []
+  },
+  {
+    "id": 21136,
+    "domain": [
+      "抢号"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "爬虫",
+      "bot"
+    ],
+    "area": []
+  },
+  {
+    "id": 21141,
+    "domain": [
+      "博彩"
+    ],
+    "duty": "后端",
+    "skill": [
+      "算法"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "area": []
+  },
+  {
+    "id": 21140,
+    "domain": [
+      "二维码"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "c",
+      "nodejs",
+      "typescript"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "area": []
+  },
+  {
+    "id": 21139,
+    "domain": [
+      "教学评测"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "python",
+      "vue"
+    ],
+    "demand": [
+      "模仿",
+      "过大"
+    ],
+    "area": []
+  },
+  {
+    "id": 21138,
+    "domain": [
+      "h5",
+      "游戏"
+    ],
+    "duty": "前端",
+    "skill": [
+      "egret",
+      "h5"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "area": []
+  },
+  {
+    "id": 21137,
+    "domain": [
+      "管理系统"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "不明确"
+    ],
+    "area": [
+      "北京",
+      "天津"
+    ],
+    "skill": [
+      "android"
+    ]
+  },
+  {
+    "id": 21135,
+    "domain": [
+      "视频"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "小程序",
+      "视频处理"
+    ],
+    "area": []
+  },
+  {
+    "id": 21131,
+    "domain": [
+      "电商"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "模仿"
+    ],
+    "skill": [
+      "小程序"
+    ],
+    "area": [
+      "合肥"
+    ]
+  },
+  {
+    "id": 21130,
+    "domain": [
+      "企业网站"
+    ],
+    "duty": "前端",
+    "skill": [
+      "web"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "area": []
+  },
+  {
+    "id": 21129,
+    "domain": [
+      "广告"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "web"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "area": []
+  },
+  {
+    "id": 21078,
+    "domain": [
+      "设计"
+    ],
+    "duty": "设计",
+    "skill": [
+      "设计",
+      "logo"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "area": []
+  },
+  {
+    "id": 21127,
+    "domain": [
+      "博彩"
+    ],
+    "duty": "后端",
+    "skill": [
+      "算法"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "area": []
+  },
+  {
+    "id": 21125,
+    "domain": [
+      "直播",
+      "工具",
+      "爬虫"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "明确"
+    ],
+    "skill": [
+      "爬虫"
+    ],
+    "area": []
+  },
+  {
+    "id": 21115,
+    "domain": [
+      "电商"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "模仿"
+    ],
+    "skill": [
+      "app"
+    ],
+    "area": [
+      "合肥"
+    ]
+  },
+  {
+    "id": 21116,
+    "domain": [
+      "政务"
+    ],
+    "duty": "前端",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "小程序"
+    ],
+    "area": []
+  },
+  {
+    "id": 21123,
+    "domain": [
+      "二次开发"
+    ],
+    "duty": "前端",
+    "demand": [
+      "明确"
+    ],
+    "skill": [
+      "web",
+      "app"
+    ],
+    "area": []
+  },
+  {
+    "id": 21122,
+    "domain": [
+      "图像识别"
+    ],
+    "duty": "后端",
+    "demand": [
+      "明确"
+    ],
+    "skill": [
+      "opencv"
+    ],
+    "area": []
+  },
+  {
+    "id": 21100,
+    "domain": [
+      "报表"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "java",
+      "vue",
+      "mysql"
+    ],
+    "area": []
+  },
+  {
+    "id": 21120,
+    "domain": [
+      "在线教育"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "明确"
+    ],
+    "skill": [
+      "公众号",
+      "PHP"
+    ],
+    "area": [
+      "北京"
+    ]
+  },
+  {
+    "id": 21119,
+    "domain": [
+      "论坛"
+    ],
+    "duty": "全栈",
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "dcloud",
+      "vue"
+    ],
+    "area": []
+  },
+  {
+    "id": 21118,
+    "domain": [
+      "智能写作"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "小程序"
+    ],
+    "area": [
+      "上海"
+    ]
+  },
+  {
+    "id": 21114,
+    "domain": [
+      "广告"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "h5",
+      "公众号"
+    ],
+    "area": [
+      "长春"
+    ]
+  },
+  {
+    "id": 21112,
+    "domain": [
+      "测试"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "area": [
+      "长沙"
+    ],
+    "skill": [
+      "测试"
+    ],
+    "duty": "测试"
+  },
+  {
+    "id": 21108,
+    "domain": [
+      "统计"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "duty": "设计",
+    "skill": [],
+    "area": []
+  },
+  {
+    "id": 21107,
+    "domain": [
+      "医疗"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "医疗",
+      "牙科"
+    ],
+    "area": []
+  },
+  {
+    "id": 21103,
+    "domain": [
+      "erp",
+      "电商"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "laravel",
+      "php"
+    ],
+    "area": []
+  },
+  {
+    "id": 21101,
+    "domain": [
+      "CAD"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "cad"
+    ],
+    "area": []
+  },
+  {
+    "id": 20194,
+    "domain": [
+      "电商"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "shopify",
+      "web"
+    ],
+    "area": []
+  },
+  {
+    "id": 21092,
+    "domain": [
+      "电商"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "skill": [
+      "java",
+      "mysql",
+      "公众号"
+    ],
+    "duty": "全栈",
+    "area": []
+  },
+  {
+    "id": 21046,
+    "domain": [
+      "工具"
+    ],
+    "demand": [
+      "明确"
+    ],
+    "skill": [
+      "swift",
+      "websocket"
+    ],
+    "duty": "前端",
+    "area": []
+  },
+  {
+    "id": 21090,
+    "domain": [
+      "约会交友"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "rails",
+      "ruby",
+      "postgresql"
+    ],
+    "area": []
+  },
+  {
+    "id": 21085,
+    "domain": [
+      "电商"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "skill": [],
+    "area": []
+  },
+  {
+    "id": 20188,
+    "domain": [
+      "健康"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "matlab",
+      "小程序"
+    ],
+    "duty": "全栈",
+    "area": []
+  },
+  {
+    "id": 20187,
+    "domain": [
+      "保险"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "duty": "全栈",
+    "skill": [],
+    "area": []
+  },
+  {
+    "id": 21086,
+    "domain": [
+      "文书"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "python",
+      "django",
+      "bootstrap"
+    ],
+    "area": []
+  },
+  {
+    "id": 21084,
+    "domain": [
+      "外挂"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "js",
+      "传感器",
+      "外挂"
+    ],
+    "area": []
+  },
+  {
+    "id": 21083,
+    "domain": [
+      "erp",
+      "商务",
+      "项目管理"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "area": [
+      "长三角"
+    ],
+    "duty": "全栈",
+    "skill": []
+  },
+  {
+    "id": 21082,
+    "domain": [
+      "电商"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "skill": [],
+    "area": []
+  },
+  {
+    "id": 21080,
+    "domain": [
+      "OA"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "前端",
+    "area": [
+      "上海",
+      "南京"
+    ],
+    "skill": [
+      "android"
+    ]
+  },
+  {
+    "id": 21079,
+    "domain": [
+      "教育"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "skill": [
+      "vue"
+    ],
+    "duty": "前端",
+    "area": []
+  },
+  {
+    "id": 21039,
+    "domain": [
+      "教育"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "skill": [
+      "vue"
+    ],
+    "duty": "全栈",
+    "area": []
+  },
+  {
+    "id": 21077,
+    "domain": [
+      "视频"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "skill": [
+      "ass"
+    ],
+    "duty": "前端",
+    "area": []
+  },
+  {
+    "id": 21025,
+    "domain": [
+      "网站"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "html",
+      "ui"
+    ],
+    "duty": "前端",
+    "area": []
+  },
+  {
+    "id": 21074,
+    "domain": [
+      "教学"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "skill": [
+      "sqlserver",
+      "c#"
+    ],
+    "duty": "全栈",
+    "area": []
+  },
+  {
+    "id": 21045,
+    "domain": [
+      "电商"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "skill": [
+      "ios",
+      "swift"
+    ],
+    "duty": "全栈",
+    "area": []
+  },
+  {
+    "id": 21072,
+    "domain": [
+      "IM"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "electron",
+      "websocket",
+      "vue"
+    ],
+    "duty": "全栈",
+    "area": []
+  },
+  {
+    "id": 21069,
+    "domain": [
+      "在线教育"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "流媒体"
+    ],
+    "area": [
+      "长三角"
+    ],
+    "duty": "全栈"
+  },
+  {
+    "id": 21068,
+    "domain": [
+      "广告"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "area": [
+      "长春"
+    ],
+    "duty": "全栈",
+    "skill": []
+  },
+  {
+    "id": 21064,
+    "domain": [
+      "行业调研",
+      "O2O"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "skill": [
+      "maxdiff"
+    ],
+    "area": [
+      "北方"
+    ],
+    "duty": "全栈"
+  },
+  {
+    "id": 21057,
+    "domain": [
+      "健身"
+    ],
+    "demand": [
+      "不明确",
+      "过大"
+    ],
+    "skill": [
+      "php",
+      "react",
+      "react-native"
+    ],
+    "duty": "全栈",
+    "area": []
+  },
+  {
+    "id": 21065,
+    "domain": [
+      "爬虫"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "爬虫",
+      "微博"
+    ],
+    "duty": "后端",
+    "area": []
+  },
+  {
+    "id": 21062,
+    "domain": [
+      "声音识别",
+      "影像识别"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "python"
+    ],
+    "duty": "全栈",
+    "area": []
+  },
+  {
+    "id": 21061,
+    "domain": [
+      "约会交友"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "area": [
+      "珠三角"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "android",
+      "ios"
+    ]
+  },
+  {
+    "id": 21055,
+    "domain": [
+      "外挂"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "python"
+    ],
+    "duty": "后端",
+    "area": []
+  },
+  {
+    "id": 21054,
+    "domain": [
+      "房地产"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "duty": "全栈",
+    "skill": [],
+    "area": []
+  },
+  {
+    "id": 21052,
+    "domain": [
+      "自动交易"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "后端",
+    "skill": [],
+    "area": []
+  },
+  {
+    "id": 21050,
+    "domain": [
+      "开发"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "顾问",
+    "skill": [
+      "架构"
+    ],
+    "area": []
+  },
+  {
+    "id": 21047,
+    "domain": [
+      "破解"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "skill": [
+      "反汇编"
+    ],
+    "duty": "后端",
+    "area": []
+  },
+  {
+    "id": 21042,
+    "domain": [
+      "招聘求职"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "area": [
+      "山东",
+      "广东"
+    ],
+    "skill": []
+  },
+  {
+    "id": 21041,
+    "domain": [
+      "健康"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "小程序"
+    ],
+    "area": []
+  },
+  {
+    "id": 21035,
+    "domain": [
+      "婚恋交友"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "skill": [],
+    "area": []
+  },
+  {
+    "id": 21034,
+    "domain": [
+      "电商"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "duty": "全栈",
+    "skill": [],
+    "area": []
+  },
+  {
+    "id": 21033,
+    "domain": [
+      "深度学习"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "area": [
+      "北京"
+    ],
+    "skill": [
+      "openai",
+      "github",
+      "matlab",
+      "python"
+    ]
+  },
+  {
+    "id": 21032,
+    "domain": [
+      "定时任务"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "php"
+    ],
+    "area": []
+  },
+  {
+    "id": 21031,
+    "domain": [
+      "bugfix"
+    ],
+    "demand": [
+      "明确"
+    ],
+    "duty": "全栈",
+    "skill": [],
+    "area": []
+  },
+  {
+    "id": 21024,
+    "domain": [
+      "网络监控"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "c#",
+      "php",
+      "uwp"
+    ],
+    "area": []
+  },
+  {
+    "id": 21023,
+    "domain": [
+      "电商"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "java"
+    ],
+    "area": []
+  },
+  {
+    "id": 21021,
+    "domain": [
+      "加密"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "java"
+    ],
+    "area": []
+  },
+  {
+    "id": 21020,
+    "domain": [
+      "外挂"
+    ],
+    "demand": [
+      "不明确"
+    ],
+    "duty": "全栈",
+    "skill": [],
+    "area": []
+  },
+  {
+    "id": 21018,
+    "domain": [
+      "门户网站"
+    ],
+    "demand": [
+      "明确"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "钉钉"
+    ],
+    "area": []
+  },
+  {
+    "id": 21017,
+    "domain": [
+      "电子货币"
+    ],
+    "demand": [
+      "模仿"
+    ],
+    "duty": "全栈",
+    "skill": [
+      "btc"
+    ],
+    "area": []
+  }
+]

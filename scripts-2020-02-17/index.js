@@ -3,6 +3,7 @@
 
 const fetch = require('node-fetch')
 const fs = require('fs')
+const nodejieba = require('nodejieba')
 
 // 抓取一页
 const getOnePage = async ({ page }) => {
@@ -37,8 +38,22 @@ const getAllPages = async () => {
   return result
 }
 
+const jiebaCut = (data) => {
+  let res = data.map(d => {
+    let { name, description } = d
+    let str = `${name} ${description}`
+    // let cutTags = nodejieba.tag(str)
+    let cutTags = nodejieba.extract(str, 10)
+    return Object.assign({}, d, { cutTags })
+  })
+
+  return res
+}
+
 const run = async () => {
   let result = await getAllPages()
+  result = jiebaCut(result)
+
   fs.writeFileSync('result.json', JSON.stringify(result, null, 2))
   console.log('done.')
 }
